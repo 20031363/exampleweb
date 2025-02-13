@@ -1,0 +1,274 @@
+.dancing {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.carrousel-productos{
+  font-weight: lighter;
+  color:white;
+}
+
+
+
+.btn-dark{
+  background-color: black;
+  border-radius: 2px;
+  border-color:white ;
+}
+
+.carousel-caption {
+  position: absolute; 
+  right: 15%;
+  top: 120px;
+  left: 15%;
+  margin-bottom: 100px;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(61, 61, 61, 0.247); 
+}
+
+.title-divider.cuadro-box{
+  background-color: rgba(255, 255, 255, 0.856);
+}
+
+#wrapper{
+  background-image: url("../IMAGES/cont1.jpg");
+  background-repeat: repeat;
+}
+
+.letra-logo{
+  font-family: "Dancing Script", serif;
+  font-size: 2.1rem;
+  font-weight: lighter;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.container_logo{
+  background-image: url("../IMAGES/fondo-madera-concepto-diferentes-origenes_185193-109343.jpg");
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+}
+
+.izquierda_1{
+  padding: 0;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.derecha1{
+  padding: 0;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.centros1{
+  padding: 0;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.carrousel{
+  font-family: "Dancing Script", serif;
+  font-size: 2.1rem;
+  font-weight: bold;
+  color:white;
+}
+
+.generic-font{
+  font-family: "Dancing Script", serif;
+  color: white;
+  font-size: 5rem;
+  margin-top: 1%;
+  margin-bottom: 1% ;
+}
+
+.subtitle{
+  font-family: "Dancing Script", serif;
+  color: white;
+  font-size: 3rem;
+}
+
+.image-bg-borders {
+  background-color: white;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  inset: auto 0% 0% auto
+}
+
+.image-bg-borders.bottom-part {
+  inset: 0% 0% auto auto
+}
+
+.title-divider {
+  background-color: rgb(228, 228, 228);
+  width: 50px;
+  height: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.image-bg-borders.right-part {
+  width: 5px;
+  height: 100%
+}
+
+.image-bg-borders.upper-part {
+  inset: 0% 0% auto auto
+}
+
+.image-bg-borders.left-part {
+  width: 5px;
+  height: 100%;
+  inset: auto auto 0% 0%
+}
+
+.image-border-background {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -4%;
+  left: -4%
+}
+
+.inner-texter{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  font-size: 1.12rem;
+  text-align: left;
+  text-align: justify;
+}
+
+.generic-text-container{
+  padding: 0.2% 0.2% 0.2% 0.2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgba(51, 51, 51, 0.336);
+}
+
+.etiqueta{
+  color: white;
+  font-weight: lighter;
+}
+
+.navegacion{
+  padding-top: 0;
+  padding-bottom:0 ;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: black !important;
+}
+
+.navegacion-item{
+  background-color: black;
+  color: white;
+  padding-top:17px;
+  padding-bottom: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navegacion-item:hover{
+  background-color: rgb(49, 49, 49);
+  font-weight: bolder;
+}
+
+.container-row{
+  margin: 3% 3% 3% 3%;
+}
+
+.navegacion-color-item{
+  color: rgb(209, 209, 209);
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.imagen-redes{
+  width: 20px;
+}
+
+.redes-container{
+  margin:0;
+  padding:0;
+  margin-right: 20%;
+  margin-left: 50%;
+  align-items: center;
+}
+
+.generic-container{
+  margin-top: 60px; 
+  margin-bottom: 60px; 
+  margin-left: 2.5%; 
+  margin-right: 2.5%;
+  background-image:url("../IMAGES/cont3.jpg") ;
+  background-repeat: repeat;
+ 
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 0.5rem;
+}
+
+
+.generic-space{
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding:0;
+  margin: 0% 0% 0% 0% ;
+}
+
+.fondo-card-generic{
+  background-image: url("../IMAGES/cont5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0.3dvh;
+}
+
+
+/*LETRAS PARA EL FORMATO*/
+
+.quicksand{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.mulish {
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+
+
+.letra-carrousel-inner{
+  color: white;
+  text-align: justify;
+  font-family: "Quicksand", serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-style: normal;  
+}
+
+.letra-carrousel-inner-title{
+  color:white;
+  font-family: "Quicksand", serif;
+  font-size: 4.3rem;
+  font-weight:normal ;
+  font-style: normal;
+}
