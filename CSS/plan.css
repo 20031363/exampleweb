@@ -1,0 +1,278 @@
+h2,h3,h4,h5,h6{
+  color: rgb(34, 53, 17) !important;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .badge {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 20px;
+  }
+  
+  .bg-success {
+    background-color: #28a745 !important; /* Verde */
+  }
+  
+  .bg-warning {
+    background-color: #ffc107 !important; /* Amarillo */
+  }
+  
+  .bg-primary {
+    background-color: #007bff !important; /* Azul */
+  }
+  
+  .bg-secondary {
+    background-color: #6c757d !important; /* Gris */
+  }
+  
+  .bg-danger {
+    background-color: #dc3545 !important; /* Rojo */
+  }
+  
+  .bg-info {
+    background-color: #17a2b8 !important; /* Turquesa */
+  }
+
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #28a745; /* Verde */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Verde oscuro */
+}
+
+
+
+.btn-outline-success {
+  border: 2px solid #28a745; /* Verde */
+  color: #28a745;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success.active,
+.btn-outline-success:hover {
+  background-color: #28a745; /* Verde */
+  color: white;
+}
+
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #28a745; /* Verde */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Verde oscuro */
+}
+
+
+.accordion-button {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #28a745; /* Verde */
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #28a745; /* Verde */
+  border-color: #28a745;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  font-size: 1rem;
+  color: #555;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: none;
+}
+
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #28a745; /* Verde */
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #28a745; /* Verde */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Verde oscuro */
+}
+
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los íconos de redes sociales */
+.d-flex img {
+  transition: transform 0.3s ease;
+}
+
+.d-flex img:hover {
+  transform: scale(1.1);
+}

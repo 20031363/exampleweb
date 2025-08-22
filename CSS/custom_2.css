@@ -1,0 +1,214 @@
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h6 {
+    color:rgb(44, 65, 55)!important;
+  }
+
+  .hg{
+    color:white;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2980b9;
+  }
+  
+  .text-decoration-none{
+    color:rgb(44, 63, 58)!important;
+    font-weight: bold;
+    text-decoration: underline;
+
+  }
+  
+  .blog-header {
+    background: url('IMAGES/blog-header.jpg') center/cover no-repeat;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .blog-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 62, 80, 0.7);
+  }
+  
+  .blog-header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .blog-header p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color: #3498db !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9 !important;
+  }
+  
+
+  .container-es {
+    padding: 60px 0;
+  }
+  
+  .container-es h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 40px;
+  }
+  
+
+  .testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .testimonial-card p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+
+  .recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .recipe-card h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+
+  .video-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-card iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+  
+  .video-card h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .video-card p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+  .footer_admin{
+    color:white !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }

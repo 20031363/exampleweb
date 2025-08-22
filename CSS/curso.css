@@ -1,0 +1,226 @@
+
+.courses-hero {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .courses-hero h1 {
+    font-family: "Quicksand", serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .courses-hero p {
+    font-family: "Quicksand", serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .courses-hero .btn-primary {
+    background-color: rgb(17, 53, 42) !important;
+    border-color: rgb(17, 53, 39) !important;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  
+  .courses-hero .btn-primary:hover {
+    background-color: rgb(73, 110, 102) !important;
+    border-color: rgb(73, 110, 99) !important;
+  }
+
+
+.container-es {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-family: "Quicksand", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(34, 53, 17);
+  }
+  
+  .card-text {
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: rgb(34, 53, 17) !important;
+    border-color: rgb(34, 53, 17) !important;
+    font-size: 1rem;
+    padding: 8px 20px;
+    border-radius: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(73, 110, 85) !important;
+    border-color: rgb(73, 110, 85) !important;
+  }
+
+
+.testimonios-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  .testimonios-section h2 {
+    font-family: "Quicksand", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(34, 53, 17);
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-family: "Quicksand", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(34, 53, 17);
+  }
+  
+  .card-text {
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .rating {
+    color: #ffc107;
+    font-size: 1.2rem;
+  }
+  
+  .rounded-circle {
+    border: 3px solid rgb(34, 53, 17);
+  }
+
+.beneficios-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+  }
+  
+  .beneficios-section h2 {
+    font-family: "Quicksand", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(34, 53, 17);
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-family: "Quicksand", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(34, 53, 17);
+  }
+  
+  .card-text {
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    color: #555;
+  }
+
+
+.instructores-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  .instructores-section h2 {
+    font-family: "Quicksand", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(34, 53, 17);
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-family: "Quicksand", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(34, 53, 17);
+  }
+  
+  .card-text {
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-outline-primary {
+    border-color: rgb(34, 53, 17);
+    color: rgb(34, 53, 17);
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: rgb(34, 53, 17);
+    color: white;
+  }
