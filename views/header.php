@@ -60,67 +60,11 @@ $app = new Model();
               <?php endif; ?>
 
 
-              <?php if($app->checar('Nutricionista') || $app->checar('Coach') || $app->checar('Doctor')): ?>
-                <li class="nav-item active navegacion-item">
-                  <a class="nav-link" href="panel.php"><span class="navegacion-color-item">Home</span></a>
-                </li>
-              <?php endif; ?>
 
 
-                <?php if($app->checar('Admin')): ?>
                 <li class="nav-item navegacion-item">
-                  <a class="nav-link" href="index.php"><span class="navegacion-color-item">Dashboard</span></a>
+                  <a class="nav-link" href="../index.php"><span class="navegacion-color-item">Cerrar</span></a>
                 </li>
-                <?php endif; ?>
-                <li class="nav-item navegacion-item">
-                  <a class="nav-link" href="login.php?accion=logout"><span class="navegacion-color-item">Cerrar</span></a>
-                </li>
-                <li class="nav-item dropdown navegacion-item">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    <span class="navegacion-color-item">Catalogos</span>
-                  </a>
-                  <div class="dropdown-menu variant" aria-labelledby="navbarDropdownMenuLink">
-                  <?php if($app->checar('Admin')): ?>
-                    <a class="dropdown-item variant-son" href="../admin/marca.php">Externos</a>
-                  <?php endif; ?>
-                    <a class="dropdown-item variant-son" href="../admin/producto.php">Libros</a>
-                    <a class="dropdown-item variant-son" href="../admin/curso.php">Materias</a>
-                    <a class="dropdown-item variant-son" href="../admin/plan.php">Mentorias</a>
-                    <a class="dropdown-item variant-son" href="../admin/cupon.php">Claves</a>
-                    <?php if($app->checar('Admin')): ?>
-                    <a class="dropdown-item variant-son" href="../admin/estado.php">Estado</a>
-                    <a class="dropdown-item variant-son" href="../admin/municipio.php">Municipio</a>
-                    <?php endif; ?>
-                    <a class="dropdown-item variant-son" href="../admin/lugar.php">Lugares</a>
-                    <a class="dropdown-item variant-son" href="../admin/cita.php">Citas</a>
-                    <a class="dropdown-item variant-son" href="../admin/resena_producto.php">Reseñas Libro</a>
-                    <a class="dropdown-item variant-son" href="../admin/resena_plan.php">Evaluacion Mentorias</a>
-                    <a class="dropdown-item variant-son" href="../admin/resena_curso.php">Evaluacion Materias</a>
-                    <?php if($app->checar('Admin')): ?>
-                    <a class="dropdown-item variant-son" href="../admin/cliente.php">Alumnos</a>
-                    <a class="dropdown-item variant-son" href="../admin/empleado.php">Personal</a>
-                    <a class="dropdown-item variant-son" href="../admin/transaccion.php">Transaccion</a>
-                    <a class="dropdown-item variant-son" href="../admin/transaccion_detalle.php">Transaciones Libros</a>
-                    <a class="dropdown-item variant-son" href="../admin/transaccion_detalle_planes.php">Incripciones Mentorias</a>
-                    <a class="dropdown-item variant-son" href="../admin/transaccion_detalle_cursos.php">Incripciones Materias</a>
-                    <?php endif; ?>
-                  </div>
-                </li>
-                <?php if($app->checar('Admin')): ?>
-                <li class="nav-item dropdown navegacion-item">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    <span class="navegacion-color-item">Accesos</span>
-                  </a>
-                  <div class="dropdown-menu variant" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item variant-son" href="../admin/usuario.php">Usuarios</a>
-                    <a class="dropdown-item variant-son" href="../admin/usuarios_roles.php">Ususarios_Roles</a>
-                    <a class="dropdown-item variant-son" href="../admin/roles.php">Roles</a>
-                    <a class="dropdown-item variant-son" href="../admin/permisos.php">Permisos</a>
-                  </div>
-                </li>
-                <?php  endif; ?>
                 <div class="redes-container">
                   <div>
                     <div><img class="imagen-redes" src="./../IMAGES/wattsap1.png" alt="wattsap"></div>

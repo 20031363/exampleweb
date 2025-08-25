@@ -77,8 +77,6 @@
         $this->conexion->beginTransaction();
         $cantidad=0;
         try{
-          $sql="SELECT * from actor";
-          }
           $sql="DELETE FROM actor WHERE actor_id = :actor_id";
           $eliminar=$this->conexion->prepare($sql);
           $eliminar->bindParam(':actor_id',$id,PDO::PARAM_INT);
