@@ -41,24 +41,17 @@ $app = new Model();
 
     <header>
         <div class="container_logo">
-          <img src="./../IMAGES/log.png" width="300" alt="LOGO ESMERALDA">
+          <img src="./../IMAGES/logh.jpg" width="300" alt="LOGO ESMERALDA">
         </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navegacion" style="max-width: 100%;">
             <a class="navbar-brand" style="margin-left: 3%;" href="#"><span
-                class="letra-logo">ConectaTEC©Admin</span></a>
+                class="letra-logo">SakilaDB©Admin</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin: 0; padding: 0;">
               <ul class="navbar-nav">
-
-              <?php if($app->checar('Admin')): ?>
-                <li class="nav-item active navegacion-item">
-                  <a class="nav-link" href="index.php"><span class="navegacion-color-item">Home</span></a>
-                </li>
-              <?php endif; ?>
-
 
 
 

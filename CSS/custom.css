@@ -1,5 +1,3 @@
-
-
 #wrapper{
   background-image: url("../IMAGES/wrper.avif");
   background-repeat: repeat;
@@ -8,7 +6,7 @@
 
 .container_logo{
   position: relative;
-  background-image: url("../IMAGES/lince_refresh.png");
+  background-image: url("../IMAGES/ultrad.jpg");
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
