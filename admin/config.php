@@ -3,8 +3,8 @@
 define('SGBD', 'mysql');  
 define('HOST', 'localhost'); 
 define('DB', 'sakila');
-define('USER', 'sakila');
-define('PASSWORD', '123');
+define('USER', '20031363');
+define('PASSWORD', '20031363');
 
 
 ?>

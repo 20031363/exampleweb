@@ -1,5 +1,6 @@
 #wrapper{
-  background-image: url("../IMAGES/wrper.avif");
+  
+  background-color: rgb(62, 74, 180) !important;
   background-repeat: repeat;
   background-size: cover;
 }
@@ -31,11 +32,11 @@
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
-  background-color: rgb(19,51,51)!important;
+  background-color: rgb(62, 74, 180)!important;
 }
 
 .navegacion-item{
-  background-color: rgb(19,51,51)!important;
+ background-color: rgb(62, 74, 180)!important;
   color: white !important;
   padding-top:17px;
   padding-bottom: 17px;
@@ -44,7 +45,7 @@
 }
 
 .navegacion-item:hover{
-  background-color: rgb(73, 106, 110)!important;
+  background-color: rgb(73, 77, 110)!important;
   font-weight: bolder;
   color:white;
 }
@@ -73,7 +74,7 @@
   padding: 0.2% 0.2% 0.2% 0.2%;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-color: rgba(19, 51, 51, 0.74)!important;
+  background-color: rgba(19, 28, 51, 0.74)!important;
 }
 
 
@@ -99,14 +100,14 @@
 
   footer{
     font-family: "Quicksand", serif;
-    background-color: rgb(19, 51, 51)!important;
+    background-color: rgb(19, 21, 51)!important;
     
   }
   
  
 
   .btn-dark{
-    background-color: rgb(19, 51, 51) !important;
+    background-color: rgb(24, 19, 51) !important;
     border-radius: 2px;
     border-color:white ;
   }
@@ -129,7 +130,7 @@
 
 
   .fondo-card-generic{
-    background-color: rgba(19, 51, 51, 0.568) !important;
+    background-color: rgba(19, 21, 51, 0.568) !important;
     background-position: 0.3dvh;
   }
   
@@ -137,7 +138,7 @@
   
 
   .btn-primary{
-    background-color: rgb(19, 51, 51) !important;
+    background-color: rgb(19, 26, 51) !important;
     border-radius: 2px;
     border-color:white ;
   }
@@ -208,7 +209,7 @@
   }
 
 .card-body{
-  background-color: rgba(211, 226, 220, 0.61) !important;
+  background-color: rgba(211, 214, 226, 0.61) !important;
 }
 
 
@@ -264,8 +265,7 @@
   max-width: 1100px; 
   margin: auto; 
   padding: 40px 20px; 
-  background-color: rgba(0, 0, 0, 0.322); 
-  background-image: url('../IMAGES/fonderd.avif');
+  background-color: rgb(253, 253, 253); 
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px; 
@@ -656,7 +656,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(44, 62, 80, 0.7);
+  background: rgba(52, 44, 80, 0.822);
 }
 
 .about-header h1 {
@@ -677,7 +677,7 @@
 .historia-section h2 {
   font-size: 3rem;
   font-weight: bold;
-  color: #2c3e
+  color: rgba(45, 34, 204, 0.933)
 }
 
 
@@ -692,12 +692,12 @@
 }
 
 .nav-tabs .nav-link.active {
-  color: #28a745; /* Verde */
-  border-bottom: 3px solid #28a745;
+  color: #3528a7; /* Verde */
+  border-bottom: 3px solid #2a28a7;
 }
 
 .nav-tabs .nav-link:hover {
-  color: #28a745; /* Verde */
+  color: #3128a7; /* Verde */
 }
 
 
@@ -730,7 +730,7 @@
 }
 
 .btn-primary {
-  background-color: #28a745; /* Verde */
+  background-color: #2a28a7; /* Verde */
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
@@ -738,5 +738,5 @@
 }
 
 .btn-primary:hover {
-  background-color: #218838; /* Verde oscuro */
+  background-color: #213488; /* Verde oscuro */
 }

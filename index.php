@@ -127,7 +127,7 @@
 </div>
 
 <!-- Qué centraliza la base de datos Sakila -->
-<div  class="container-es bg-success text-white p-5 rounded" style="margin-bottom: 3%;">
+<div  class="container-es text-white p-5 rounded" style="margin-bottom: 3%;">
   <h2 class="text-center mb-4">¿Qué centraliza la base de datos Sakila?</h2>
   <ul class="lead">
     <li style="color:black !important;">🎬 Información de películas y categorías.</li>
