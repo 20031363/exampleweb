@@ -50,6 +50,18 @@
                   <a class="nav-link" href="admin/marca.php"><span class="navegacion-color-item">Actores</span></a>
                 </li>
 
+                <li class="nav-item navegacion-item">
+                  <a class="nav-link" href="admin/producto.php"><span class="navegacion-color-item">Paises</span></a>
+                </li>
+
+
+                <li class="nav-item navegacion-item">
+                  <a class="nav-link" href="admin/country.php"><span class="navegacion-color-item">Paises API</span></a>
+                </li>
+                <li class="nav-item navegacion-item">
+                  <a class="nav-link" href="admin/api/country.php"><span class="navegacion-color-item">API-R</span></a>
+                </li>
+
 
 
                 <div class="redes-container">

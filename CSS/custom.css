@@ -42,6 +42,8 @@
   padding-bottom: 17px;
   padding-left: 20px;
   padding-right: 20px;
+  width: 40rem !important;
+  text-align: center !important;
 }
 
 .navegacion-item:hover{

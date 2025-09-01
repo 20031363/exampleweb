@@ -109,29 +109,7 @@
         $resultado=$datos->fetch(PDO::FETCH_ASSOC);
         return $resultado;
       }
-
-      function graficar(){
-        $this->conectar();
-        $datos=$this->conexion->prepare("SELECT m.marca,COUNT(p.producto) AS cantidad FROM marca m
-        LEFT JOIN producto p ON m.id_marca = p.id_marca
-        GROUP BY m.id_marca
-        ORDER BY 1;");
-        $datos->execute();
-        $resultado=$datos->fetchAll(PDO::FETCH_ASSOC);
-        return $resultado;
-      }
-
-
-      function graficar2(){
-        $this->conectar();
-        $datos=$this->conexion->prepare("SELECT m.id_marca,m.marca,COUNT(p.producto) AS cantidad FROM marca m
-        LEFT JOIN producto p ON m.id_marca = p.id_marca
-        GROUP BY m.id_marca
-        ORDER BY 1;");
-        $datos->execute();
-        $resultado=$datos->fetchAll(PDO::FETCH_ASSOC);
-        return $resultado;
-      }
+      
 
 
     }
