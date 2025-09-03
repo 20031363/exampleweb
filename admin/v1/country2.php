@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: application/json'); // siempre JSON
+header('Content-Type: application/json'); 
 
 require_once(__DIR__ . '/../models/producto.php');
 

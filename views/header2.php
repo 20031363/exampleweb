@@ -32,8 +32,8 @@ $app = new Model();
 <!-- Bootstrap JS (opcional para tooltips) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <link href="./../CSS/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="./../CSS/custom.css" rel="stylesheet" type="text/css">
+  <link href="./../../CSS/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="./../../CSS/custom.css" rel="stylesheet" type="text/css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ConectaTEC©Administrador</title>
@@ -44,7 +44,7 @@ $app = new Model();
 
     <header>
         <div class="container_logo">
-          <img src="./../IMAGES/logh.jpg" width="300" alt="LOGO ESMERALDA">
+          <img src="./../../IMAGES/logh.jpg" width="300" alt="LOGO ESMERALDA">
         </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navegacion" style="max-width: 100%;">
             <a class="navbar-brand" style="margin-left: 3%;" href="#"><span
@@ -59,7 +59,7 @@ $app = new Model();
 
 
                 <li class="nav-item navegacion-item">
-                  <a class="nav-link" href="../index.php"><span class="navegacion-color-item">Cerrar</span></a>
+                  <a class="nav-link" href="../../index.php"><span class="navegacion-color-item">Cerrar</span></a>
                 </li>
                 <div class="redes-container">
                 </div>

@@ -54,12 +54,18 @@
                   <a class="nav-link" href="admin/producto.php"><span class="navegacion-color-item">Paises</span></a>
                 </li>
 
-
                 <li class="nav-item navegacion-item">
-                  <a class="nav-link" href="admin/country.php"><span class="navegacion-color-item">Paises API</span></a>
+                  <a class="nav-link" href="admin/interfaz_api1/country.php"><span class="navegacion-color-item">API1</span></a>
                 </li>
                 <li class="nav-item navegacion-item">
-                  <a class="nav-link" href="admin/api/country.php"><span class="navegacion-color-item">API-R</span></a>
+                  <a class="nav-link" href="admin/interfaz_api2/country.php"><span class="navegacion-color-item">API2</span></a>
+                </li>
+
+                <li class="nav-item navegacion-item">
+                  <a class="nav-link" href="admin/v1/country2.php"><span class="navegacion-color-item">A-R1</span></a>
+                </li>
+                <li class="nav-item navegacion-item">
+                  <a class="nav-link" href="admin/v2/country2.php?model=producto"><span class="navegacion-color-item">A-R2</span></a>
                 </li>
 
 

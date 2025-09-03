@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__.'/../views/header.php');
+require_once(__DIR__.'/../../views/header2.php');
 ?>
 
 <h1 class="generic-font" style="color: rgb(31, 43, 33)!important; font-weight:bolder;text-align:center;margin-top:4rem;">Pais API:</h1>
@@ -9,8 +9,22 @@ require_once(__DIR__.'/../views/header.php');
   <button id="btnListar" class="btn btn-primary set_buton" style="background-color:green;padding:1rem 3rem; font-size:1.4rem;font-weight:normal;">
     Cargar Países
   </button>
-  <ul id="lista" class="generic-font" style="color: rgb(31, 43, 33)!important; font-weight:bolder;text-align:center;font-size:1.7rem;"></ul>
+  <ul id="lista" class="generic-font" 
+      style="
+        color: rgb(31, 43, 33)!important; 
+        font-weight:bolder;
+        text-align:center;
+        font-size:1.7rem;
+        max-height: 300px;        /* alto máximo */
+        overflow-y: auto;         /* scroll vertical */
+        padding: 1rem;
+        border: 2px solid #ccc;
+        list-style: none;
+        margin-top: 1rem;
+      ">
+  </ul>
 </div>
+
 
 <!-- LEER UNO -->
 <form id="formLeerUno">
@@ -62,7 +76,7 @@ require_once(__DIR__.'/../views/header.php');
 
 
 <script>
-const apiUrl = "http://localhost/paginaweb/admin/api/country2.php";
+const apiUrl = "http://localhost/paginaweb/admin/v2/country2.php?model=producto";
 
 // LISTAR TODOS
 document.getElementById("btnListar").addEventListener("click", async () => {
@@ -87,7 +101,7 @@ document.getElementById("formLeerUno").addEventListener("submit", async e => {
   const formData = new FormData(e.target);
   const id = formData.get("id");
 
-  const resp = await fetch(`${apiUrl}?id=${id}`);
+  const resp = await fetch(`${apiUrl}&id=${id}`);
   const data = await resp.json();
   document.getElementById("resultadoUno").textContent = JSON.stringify(data, null, 2);
 });
@@ -112,7 +126,7 @@ document.getElementById("formUpdate").addEventListener("submit", async e => {
   const formData = new FormData(e.target);
   const data = Object.fromEntries(formData);
   
-  const resp = await fetch(`${apiUrl}?id=${data.id}`, {
+  const resp = await fetch(`${apiUrl}&id=${data.id}`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ country: data.country })
@@ -126,7 +140,7 @@ document.getElementById("formDelete").addEventListener("submit", async e => {
   const formData = new FormData(e.target);
   const data = Object.fromEntries(formData);
   
-  const resp = await fetch(`${apiUrl}?id=${data.id}`, {
+  const resp = await fetch(`${apiUrl}&id=${data.id}`, {
     method: "DELETE"
   });
   document.getElementById("respuesta").textContent = await resp.text();
@@ -134,5 +148,5 @@ document.getElementById("formDelete").addEventListener("submit", async e => {
 </script>
 
 <?php
-require_once(__DIR__.'/../views/footer.php');
+require_once(__DIR__.'/../../views/footer.php');
 ?>
